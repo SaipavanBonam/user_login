@@ -34,18 +34,18 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  appearance: none; /* Remove default dropdown arrow */
+  appearance: none;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="tel"] {
-  padding-right: 40px; /* Space for the eye icon */
+  padding-right: 40px;
 }
 
 .password-group input {
-  padding-right: 40px; /* Space for the eye icon */
+  padding-right: 40px; 
 }
 
 .password-toggle-icon {
@@ -76,7 +76,7 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Styling for the custom dropdown arrow */
+
 select {
   background-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 9l-7 7-7-7"></path></svg>');
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ select {
   background-size: 16px 16px;
 }
 
-/* Phone input container styling */
+
 .phone-input-container {
   display: flex;
   align-items: center;
